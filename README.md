@@ -4,7 +4,7 @@
 
 **QUICKphotonics** (Quick UnIt Conversion Kit for Photonics) is a MATLAB-powered, commandline-style, **lightweight** and **modular** (expandable framework) tool for unit conversion in optics and photonics. It is currently a proprietary software maintained by [Jiaye Wu](https://jiaye-wu.github.io) and distributed under the [MIT license](https://opensource.org/license/mit).
 
-To use the p-code binary, MATLAB version equals or larger than R2022b (9.13) should be installed.
+To use the p-code binary, MATLAB version equals or larger than R2022b (9.13) should be installed. Run QUICKphotonics.p or type ```QUICKphotonics``` in the command window.
 
 ## Feedbacks
 
