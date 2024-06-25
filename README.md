@@ -10,6 +10,8 @@ To use the p-code binary, MATLAB version equals or larger than R2022b (9.13) sho
 
 Bug reports and feature requests are open.
 
+If you find my tool useful, please consider citing my [academic works](https://scholar.google.com/citations?user=D2n8tswAAAAJ) where suitable.
+
 ## Feature: introducing the *flexiCommand*
 
 Introducing the **flexiCommand**, an *intuitive* and *easy-to-remember* type of command with **auto unit-recognition** and **flexible element order**.
