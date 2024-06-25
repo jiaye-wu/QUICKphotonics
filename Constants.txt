@@ -1,7 +1,0 @@
-electron charge e:          1.60217663e-19 C
-electron mass m_e:          9.1093837e-31 kg
-light speed in vacuum c:    299792458 m/s
-Planck's constant h:        6.62607015e-34 J/Hz
------------------------------------------------
-time-bandwidth product, Gaussian:   0.44
-time-bandwidth product, sech^2:     0.315
