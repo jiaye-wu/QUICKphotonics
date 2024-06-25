@@ -6,7 +6,7 @@
 
 - To use the p-code binary, MATLAB version equals or larger than R2022b (9.13) should be installed. Older versions are not tested.
 - Install **QUICKphotonics.mlappinstall** and type ``QUICKphotonics`` or ```QUICK``` in the command window to start.
-- In some cases, after restarting MATLAB, you need to manually find and click this application in the *APP* tab > "My app" on the top to (re)-enable it.
+- In some cases, after restarting MATLAB, you need to manually find and click this application in the *APP* tab > *My app* on the top to (re)-enable it.
 
 ## Feedbacks
 
