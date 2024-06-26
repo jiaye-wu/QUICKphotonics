@@ -8,9 +8,24 @@
 - Install **QUICKphotonics.mlappinstall** and type ``QUICKphotonics`` or ```QUICK``` in the command window to start.
 - In some cases, after restarting MATLAB, you need to manually find and click this application in the *APP* tab > *My app* on the top to (re)-enable it.
 
-## Feedbacks
+## What problems/pain spots does it solve? Why would I need this tool?
 
-Bug reports and feature requests are open.
+The purpose of this software is to **enable quick lookup** of values in experiments or academic discussions.
+
+The common conversions and calculations in optics & photonics such as "frequency difference to wavelength difference at a certain band", "photon energy", "Fresnel reflection at an angle", etc., are simple, **yet**:
+
+- Writing a script function on-demand requires looking-up for the formula/constants, even verifications.
+- Subsequently, your function files could become too many and non-centralized. You might not remember where to find them in a later project.
+- Every time you use your old scripts, you might have to check your previous definitions (function names, units used, order of the values). If not careful enough, the results can be orders of magnitude off.
+
+With the QUICKphotonics MATLAB Toolbox: 
+
+- You do not need to remember where you put the files. Once installed, just call the toolbox using ``QUICKphotonics`` or ```QUICK``` in the command window, or find it in your *MATLAB apps* tab.
+- The commands are flexibly spelt with auto-recognized units, which is very intuitive to use.
+
+## Feedbacks & credits
+
+Bug reports and feature requests are open on my [GitHub project page](https://github.com/jiaye-wu/QUICKphotonics).
 
 If you find my tool useful, please consider citing my [academic works](https://scholar.google.com/citations?user=D2n8tswAAAAJ) where suitable.
 
@@ -41,8 +56,8 @@ For example, ``wlnm2freqTHz 1550``, ``nmTHzwl2freq 1550``, ``wl2freqTHznm 1550``
 - For changelog: ``changelog``
 - For help and supported functions: ``help`` / ``functions`` / ``commands`` / ``flexiCommand`` / ``flexiCMD``
 - For optical constants: ``constants``
-- For author info/credits/licence/importnat notes: ``about`` / ``info`` / ``credits`` / ``license`` / ``licence``
-- For closing/terminating the progarmme: ``close`` / ``exit``
+- For author info/credits/licence/important notes: ``about`` / ``info`` / ``credits`` / ``license`` / ``licence``
+- For closing/terminating the programme: ``close`` / ``exit``
 
 ## Unit conversions & calculations
 
