@@ -5,7 +5,7 @@
 **QUICKphotonics** (Quick UnIt Conversion Kit for Photonics) is a MATLAB-powered, commandline-style, **lightweight** and **modular** (expandable framework) tool for unit conversion in optics and photonics. It is currently a proprietary software maintained by [Jiaye Wu](https://jiaye-wu.github.io) and distributed under the [MIT license](https://opensource.org/license/mit).
 
 - To use this MATLAB Toolbox App binary, MATLAB version equals or larger than R2022b (9.13) should be installed. Older versions are not tested.
-- Install **QUICKphotonics.mlappinstall** and type ``QUICKphotonics`` or ```QUICK``` in the command window to start.
+- Install **QUICKphotonics.mlappinstall** and type ``QUICKphotonics`` or ``QUICK`` in the command window to start.
 - In some cases, after restarting MATLAB, you need to manually find and click this application in the *APP* tab > *My app* on the top to (re)-enable it.
 
 ## What problems/pain spots does it solve? Why would I need this tool?
@@ -18,10 +18,10 @@ The common conversions and calculations in optics & photonics such as "frequency
 - Subsequently, your function files could become too many and non-centralized. You might not remember where to find them in a later project.
 - Every time you use your old scripts, you might have to check your previous definitions (function names, units used, order of the values). If not careful enough, the results can be orders of magnitude off.
 
-With the QUICKphotonics MATLAB Toolbox: 
+With the QUICKphotonics MATLAB Toolbox:
 
-- You do not need to remember where you put the files. Once installed, just call the toolbox using ``QUICKphotonics`` or ```QUICK``` in the command window, or find it in your *MATLAB apps* tab.
-- The commands are **flexibly spelt with auto-recognized units**, which is very intuitive to use.
+- You do not need to remember where you put the files. Once installed, just call the toolbox using ``QUICKphotonics`` or ``QUICK`` in the command window, or find it in your *MATLAB apps* tab.
+- You do not need to remember the commands and deal with units. The commands are **flexibly spelt with auto-recognized units**, which is very intuitive to use.
 
 ## Feedbacks & credits
 
