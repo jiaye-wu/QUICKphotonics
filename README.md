@@ -10,7 +10,7 @@
 
 ## What problems/pain spots does it solve? Why would I need this tool?
 
-The purpose of this software is to **enable quick lookup** of values in experiments or academic discussions.
+The purpose of this software is to **enable quick lookup** of values **in experiments or academic discussions.**
 
 The common conversions and calculations in optics & photonics such as "frequency difference to wavelength difference at a certain band", "photon energy", "Fresnel reflection at an angle", etc., are simple, **yet**:
 
@@ -21,11 +21,17 @@ The common conversions and calculations in optics & photonics such as "frequency
 With the QUICKphotonics MATLAB Toolbox: 
 
 - You do not need to remember where you put the files. Once installed, just call the toolbox using ``QUICKphotonics`` or ```QUICK``` in the command window, or find it in your *MATLAB apps* tab.
-- The commands are flexibly spelt with auto-recognized units, which is very intuitive to use.
+- The commands are **flexibly spelt with auto-recognized units**, which is very intuitive to use.
 
 ## Feedbacks & credits
 
 Bug reports and feature requests are open on my [GitHub project page](https://github.com/jiaye-wu/QUICKphotonics).
+
+This toolkit is framework-based and modular. *New feature requests are considered if*:
+
+- It is commonly used.
+- It does not involve complex algorithm and computational power.
+- It requires the number of input parameters fewer than 4. (1--3 are considered, to make it easy to remember.)
 
 If you find my tool useful, please consider citing my [academic works](https://scholar.google.com/citations?user=D2n8tswAAAAJ) where suitable.
 
