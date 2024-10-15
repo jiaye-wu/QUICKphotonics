@@ -4,6 +4,8 @@
 
 **QUICKphotonics** (Quick UnIt Conversion Kit for Photonics) is a MATLAB-powered, commandline-style, **lightweight** and **modular** (expandable framework) tool for unit conversion in optics and photonics. It is currently a proprietary software maintained by [Jiaye Wu](https://jiaye-wu.github.io) and distributed under the [MIT license](https://opensource.org/license/mit).
 
+**QUICKphotonics Excel.xltx** is the Excel version of the MATLAB app. Recommend using Microsoft Office 365 for the best compatibility. This Excel calculator is macro-free.
+
 - To use this MATLAB Toolbox App binary, MATLAB version equals or larger than R2022b (9.13) should be installed. Older versions are not tested.
 - Install **QUICKphotonics.mlappinstall** and type ``QUICKphotonics`` or ``QUICK`` in the command window to start.
 - In some cases, after restarting MATLAB, you need to manually find and click this application in the *APP* tab > *My app* on the top to (re)-enable it.
