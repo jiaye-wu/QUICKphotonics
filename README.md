@@ -2,7 +2,7 @@
 
 ## Introduction
 
-**QUICKphotonics** (Quick UnIt Conversion Kit for Photonics) is a MATLAB-powered, commandline-style, **lightweight** and **modular** (expandable framework) tool for unit conversion in optics and photonics. It is currently a proprietary software maintained by [Jiaye Wu](https://jiaye-wu.github.io) and distributed under the [MIT license](https://opensource.org/license/mit).
+**QUICKphotonics.mlappinstall** (Quick UnIt Conversion Kit for Photonics) is a MATLAB-powered, commandline-style, **lightweight** and **modular** (expandable framework) tool for unit conversion in optics and photonics. It is currently a proprietary software maintained by [Jiaye Wu](https://jiaye-wu.github.io) and distributed under the [MIT license](https://opensource.org/license/mit).
 
 **QUICKphotonics Excel.xltx** is the Excel version of the MATLAB app. Recommend using Microsoft Office 365 for the best compatibility. This Excel calculator is macro-free.
 
@@ -110,6 +110,8 @@ For photon energy, one can use either ``*J`` (like ``mJ``, ``uJ``, etc) or ``eV`
 For back-conversion, the cammand is similar: ``photonfreq(freq_unit)2E(energy_unit) <freq_value>`` or ``photonwl(wl_unit)2E(energy_unit) <wl_value>``.
 
 For angular frequency, replace ``freq`` by ``afreq``, and the units are omitted (default: rad/s)
+
+For back conversion, ``photonE(energy_unit)2wl(wl_unit) <wl_value>``, ``photonE(energy_unit)2freq(freq_unit) <freq_value>``, ``photonE(energy_unit)2afreq <afreq_value>``.
 
 #### 1.6 Energy conversion between *J and eV: ``energyeV2(energy_unit) <value>`` and ``energy(energy_unit)2eV <value>``
 
