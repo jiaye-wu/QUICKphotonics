@@ -13,7 +13,7 @@
 - This Excel calculator is macro-free. All features are realized by Excel functions.
 - To use the tool, an office suite (Microsoft Office/WPS Office/LibreOffice, etc.) must be installed. Recommend using Microsoft Office 365 for the best compatibility.
 - The tool starts as an Excel template (.xltx) which means creating a new file (.xlsx) each time. You can save the .xlsx file to your working directory. The changes are not saved to the template.
-- Usage: download the **QUICKphotonics Excel.xltx** file to use it, or in **QUICKphotonics MATLAB** use command ``Excel`` or ``excel``.
+- **Usage:** download the **QUICKphotonics Excel.xltx** file to use it, or in **QUICKphotonics MATLAB** use command ``Excel`` or ``excel``.
 
 ## What problems/pain spots does it solve? Why would I need this tool?
 
