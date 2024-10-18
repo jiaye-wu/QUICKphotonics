@@ -4,11 +4,15 @@
 
 [**QUICKphotonics.mlappinstall**](https://github.com/jiaye-wu/QUICKphotonics/raw/refs/heads/main/QUICKphotonics.mlappinstall) (Quick UnIt Conversion Kit for Photonics) is a MATLAB-powered, commandline-style, **lightweight** and **modular** (expandable framework) tool for unit conversion in optics and photonics. It is currently a proprietary software maintained by [Jiaye Wu](https://jiaye-wu.github.io) and distributed under the [MIT license](https://opensource.org/license/mit).
 
-[**QUICKphotonics Excel.xltx**](https://github.com/jiaye-wu/QUICKphotonics/raw/refs/heads/main/QUICKphotonics%20Excel.xltx) is the Excel version of the MATLAB app. Recommend using Microsoft Office 365 for the best compatibility. This Excel calculator is macro-free.
-
 - To use this MATLAB Toolbox App binary, MATLAB version equals or larger than R2022b (9.13) should be installed. Older versions are not tested.
 - Install **QUICKphotonics.mlappinstall** and type ``QUICKphotonics`` or ``QUICK`` in the command window to start.
 - In some cases, after restarting MATLAB, you need to manually find and click this application in the *APP* tab > *My app* on the top to (re)-enable it.
+
+[**QUICKphotonics Excel.xltx**](https://github.com/jiaye-wu/QUICKphotonics/raw/refs/heads/main/QUICKphotonics%20Excel.xltx) is the Excel version of the MATLAB app. 
+
+- This Excel calculator is macro-free. All features are realized by Excel functions.
+- To use the tool, an office suite (Microsoft Office/WPS Office/LibreOffice, etc.) must be installed. Recommend using Microsoft Office 365 for the best compatibility.
+- The tool starts as an Excel template (.xltx) which means creating a new file (.xlsx) each time. You can save the .xlsx file to your working directory. The changes are not saved to the template.
 
 ## What problems/pain spots does it solve? Why would I need this tool?
 
@@ -35,7 +39,12 @@ This toolkit is framework-based and modular. *New feature requests are considere
 - It does not involve complex algorithm and computational power.
 - It requires the number of input parameters fewer than 4. (1--3 are considered, to make it easy to remember.)
 
-If you find my tool useful, please consider citing my [academic works](https://scholar.google.com/citations?user=D2n8tswAAAAJ) where suitable.
+**If you find my tool useful**, please consider citing my [academic works](https://scholar.google.com/citations?user=D2n8tswAAAAJ) where suitable.
+
+**Note:** 
+
+- The author takes **NO** responsibility for any calculation errors.
+- The rest of this markdown file is for QUICKphotonics **MATLAB version only**.
 
 ## Feature: introducing the *flexiCommand*
 
@@ -61,10 +70,18 @@ For example, ``wlnm2freqTHz 1550``, ``nmTHzwl2freq 1550``, ``wl2freqTHznm 1550``
 
 ## Simple commmands:
 
+- To launch **QUICKphotonics Excel**: ``excel`` / ``Excel``
+- To check for updates: ``update`` / ``upgrade``
+- To visit project GitHub page: ``github`` / ``GitHub`` / ``project``
+- To visit prioject blog: ``blog``
+- For current version: ``version`` / ``ver`` 
 - For changelog: ``changelog``
-- For help and supported functions: ``help`` / ``functions`` / ``commands`` / ``flexiCommand`` / ``flexiCMD``
+- For help and supported functions printed **in command line**: ``help`` / ``functions`` / ``commands`` / ``flexiCommand`` / ``flexiCMD``
+- For help and supported functions **markdown file**: ``help-md`` / ``help-markdown``. Please **DO NOT** modify the contents of this file!
+- For help and supported functions **online**: ``help-ol`` / ``help-online``
 - For optical constants: ``constants``
 - For author info/credits/licence/important notes: ``about`` / ``info`` / ``credits`` / ``license`` / ``licence``
+- For restarting or returning to title page: ``restart`` / ``clear``
 - For closing/terminating the programme: ``close`` / ``exit``
 
 ## Unit conversions & calculations
