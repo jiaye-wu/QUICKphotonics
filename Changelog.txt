@@ -1,0 +1,43 @@
+Changelog
+=========
+2.1.20241018.Rev.01
+-------------------
+- Bug fix for file opening.
+
+2.0.20241018.Rev.01
+-------------------
+- New simple commands (see README.md).
+- Add support for online and local help file.
+- Add support for invoking QUICKphotonics Excel.
+- Add support to display version.
+- Add support to open online resources (GitHub/Blog) without the need to end programme.
+- Add support for local file opening on Windows/macOS/Linux.
+
+1.5.20241016.Rev.01
+-------------------
+- Add support for photon energy back conversion.
+
+1.4.20240715.Rev.01
+-------------------
+- Add support for the FSR of loop cavity alongside FP cavity.
+
+1.3.20240715.Rev.01
+-------------------
+- Fix bug on t to freq units
+
+1.2.20240626.Rev.01
+-------------------
+- Fix bug on changelog
+- Added tips, online manual and update check.
+
+1.1.20240625.Rev.01
+-------------------
+- First release in mlappinstall format. (MATLAB Toolbox)
+
+1.0.20240625.Rev.01
+-------------------
+- First release in pcode format.
+
+0.8.20240624.Rev.01
+-------------------
+- Initial build.
